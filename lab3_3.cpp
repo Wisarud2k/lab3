@@ -1,7 +1,13 @@
 #include<iostream>
+using namespace std;
 
 int main()
 {
-    std::cout<<"heeeeeelp"; asdasdasdasd
-    return 0;
+	double count=2,sum=0;
+	while(count<= 69){
+		sum=sum+(1/count);
+		count=count+1;
+	}
+	cout<<sum;
+	return 0;
 }
